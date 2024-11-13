@@ -333,7 +333,7 @@ section {
     /* text-align: center; */
     align-items: center;
     margin-left: 10px;
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 2;
     margin-bottom: 50px;
 }
@@ -717,21 +717,65 @@ section {
 hr{
     margin-top: 60px;
 }
+
 .footer {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    padding: 20px;
-    border-top: 1px solid #ddd;
+    background-color: #343a40;
     color: white;
+    width: auto;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
 .footer-section {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    width: 22%; /* Adjust width depending on how you want the sections to align */
+    margin-bottom: 1em;
+    padding: 0 20px;
 }
 
+.footer-section h4 {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #00aaff; /* Change the hover color to something bright */
+}
+
+.footer .logo img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.footer .description {
+    font-size: 1.1em;
+    margin-top: 5px;
+}
+
+.footer .copyright {
+    font-size: 0.9em;
+    margin-top: 10px;
+    color: #bbb;
+}
 
 .logo {
     display: flex;
